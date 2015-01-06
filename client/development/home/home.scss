@@ -1,0 +1,18 @@
+.me-jumbotron {
+	position: relative;
+	overflow: hidden;
+
+	.me-background {
+		height: 140%;
+		position: absolute;
+		opacity: 0.1;
+		top: -45px;
+	}
+}
+
+.col-md-6 {
+	overflow-x: auto;
+	.site-thumbnail {
+		min-width: 470px !important;
+	}
+}
