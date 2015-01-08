@@ -1,17 +1,17 @@
 {
-  "name": "meetup-roulette",
+  "name": "calebthebrewer",
   "main": "index.js",
   "version": "0.0.1",
-  "homepage": "https://github.com/calebthebrewer/express-angular-seed",
+  "homepage": "https://github.com/calebthebrewer/calebthebrewer",
   "authors": [
     "Caleb Brewer <calebthebrewer@gmail.com>"
   ],
-  "description": "A seed project pwoered by Express and Angular",
+  "description": "A quick and dirty portfolio application.",
   "keywords": [
     "angular",
     "express",
     "node",
-    "seed"
+    "portfolio"
   ],
   "license": "MIT",
   "private": true,

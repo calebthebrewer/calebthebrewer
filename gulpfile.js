@@ -77,6 +77,7 @@ gulp.task('dev', ['sass', 'js', 'html', 'vendor', 'templates', 'images']);
 
 gulp.task('prod', function() {
 	isProd = true;
+	jsFiles.push('ga.js');
 	return runSequence(['dev']);
 });
 
