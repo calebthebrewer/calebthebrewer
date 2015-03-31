@@ -1,6 +1,15 @@
+$border-color: rgba(0, 0, 0, 0.2);
+$top-border-color: rgba(0, 0, 0, 0.1);
+$bottom-border-color: rgba(0, 0, 0, 0.3);
+$background-color: rgba(255, 255, 255, 0.75);
+
 .me-jumbotron {
 	position: relative;
 	overflow: hidden;
+	padding: 24px 0;
+	box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.5);
+	background-image: url('./images/singapore.jpg');
+	background-size: cover;
 
 	.me-background {
 		height: 140%;
@@ -8,11 +17,40 @@
 		opacity: 0.1;
 		top: -45px;
 	}
+
+	h1,
+	p {
+		display: inline-block;
+		background: $background-color;
+	}
+}
+
+.thumbnail-row {
+
 }
 
 .col-md-6 {
 	overflow-x: auto;
+	margin-top: 20px;
 	.site-thumbnail {
 		min-width: 470px !important;
+		border-width: thin;
+		border-style: solid;
+		border-color: $top-border-color $border-color $bottom-border-color;
+
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+	}
+
+	.tile-thumbnail {
+		border-right: thin $border-color solid;
+	}
+
+	.media-body {
+		padding-right: 4px;
+	}
+
+	.media-heading {
+		margin: 4px 0;
 	}
 }

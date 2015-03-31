@@ -39,6 +39,7 @@ var htmlFiles = [
 	],
 	images = [
 			dev + '/**/*.png',
+			dev + '/**/*.jpg',
 			dev + '/favicon.ico'
 	];
 
